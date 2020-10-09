@@ -1,0 +1,43 @@
+.checkoutProduct {
+    min-width: 442px;
+    margin: 0 30px 30px 0;
+}
+
+.productInfo {
+    display: flex;
+    height: auto;
+}
+
+.checkoutProductDetail {
+    margin-right: 30px;
+}
+
+.productTitle {
+    width: 500px;
+}
+
+.productInfo > img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.right {
+    position: relative;
+    right: 0px;
+}
+
+.deleteProduct {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    color: blue;
+}
+
+.deleteProduct:hover {
+    color: #f2c963;
+    text-decoration: underline;
+}
+

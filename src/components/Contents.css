@@ -1,0 +1,22 @@
+.body {
+    background-color: #eaeded;
+    min-width: 768px;
+}
+
+.content {
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bgimage {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -100px;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.row {
+    display: flex;
+}

@@ -1,0 +1,25 @@
+.payment {
+    padding: 20px;
+}
+
+.orderInfo {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.paymentTitle {
+    min-width: 20%;
+    flex: 0.2;
+    margin-right: 40px;
+}
+
+/* .orderItem {
+    display: block;
+    width: 100%;
+    margin-left: 100px;
+} */
+
+.paymentAddress, .orderItem, .paymentDetail {
+    flex:0.8;
+}

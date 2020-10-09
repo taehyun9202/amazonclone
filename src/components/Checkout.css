@@ -1,0 +1,29 @@
+.checkout {
+    display: flex;
+    flex: 1;
+    min-width: 728px;
+    margin: 0;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 272px);
+    margin-right: 20px;
+}
+
+.banner {
+    min-width: 380px;
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+}
+
+.text > h3 {
+    color: #f2c963;
+}
+.text {
+    display: inline-block;
+}
